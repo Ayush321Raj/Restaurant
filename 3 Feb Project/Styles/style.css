@@ -1,0 +1,103 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height:auto;
+    width: auto;
+    background-image: url(../Assests/pw1\ assn.png);
+    background-size: cover;
+    backface-visibility: (10%);
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+
+button{
+    background-color:rgb(249, 63, 63);
+    padding: 10px 35px;
+    cursor: pointer;
+    color: azure;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    width: fit-content;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid black;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5vh 3%;
+    height: 15vh;
+}
+
+nav .logo {
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-weight: 100;
+}
+
+nav ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #eebf24;
+    font-size: 15px;
+    
+}
+
+nav ul li a:hover {
+    background-color: aliceblue;
+    color: black;
+    border-radius: 1px solid white ;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .detail {
+    width: 60em;
+    text-align: center;
+}
+
+main .detail h1 {
+    color: #eebf24;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .scrool img {
+    padding: 10px ;
+}
